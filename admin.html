@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add Events</title>
+</head>
+<body>
+	<h2>Add the event details here!</h2>
+	<form action="store.php" method="post">
+		<p>Name of the Event:<input type="text" name="name"/></p>
+		<p>Event Category: <select name="cate"> 
+			<option value="select">-Select-</option>
+			<option value="Webinar">Webinar</option>
+			<option value="Seminar">Seminar</option>
+			<option value="Blood Donation">Blood Donation</option>
+			<option value="General SocietyMeet">General Society Meet</option>
+		</Select></p>
+		Event Description:<p><textarea rows="5" cols="20" name="descr"></textarea></p>
+		<p>Data and time of event:<input type="datetime-local" name="datime"/></p>
+		<p>Event Location:<input type="text" name="loc"/></p>
+		<p><input type="submit" value="Submit"></p>
+	</form>
+</body>
+</html>
